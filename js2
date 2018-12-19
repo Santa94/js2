@@ -1,0 +1,12 @@
+/*let n=15,a,b;
+let fib = (1,1)
+fib.push(1,1) 
+while (fib.length < n) {
+    a=fib.length[n - 1]
+    b=fib.length[n - 2]
+    fib.push(a+b)
+}
+
+for (let i = 0; fib.length > i; i++) {
+    alert(fib[i]);
+}

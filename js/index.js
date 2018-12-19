@@ -1,4 +1,4 @@
-const enterNumber = prompt('Enter Number');
+const enterNumber = parseFloat(prompt('Enter Number'));
 
 function fib(n) {
     let first = 1,
@@ -10,19 +10,20 @@ function fib(n) {
     }
     return second;
 }
-alert(fib(enterNumber)); 
+alert(fib(enterNumber));
 
+const enterNumber1 = parseFloat(prompt('Enter Number2'));
 
-
-/*let n=15,a,b;
-let fib = (1,1)
-fib.push(1,1) 
-while (fib.length < n) {
-    a=fib.length[n - 1]
-    b=fib.length[n - 2]
-    fib.push(a+b)
+let n = 15;
+let fibs = Array(1, 1);
+fibs.push(1, 1)
+while (fibs.length < n) {
+    a = fibs.length[n - 1]
+    b = fibs.length[n - 2]
+    fibs[fibs.length] = fibs[a] + fibs[b]
+    fibs.push(a + b)
 }
 
 for (let i = 0; fib.length > i; i++) {
-    alert(fib[i]);
+    alert(fib(enterNumber1));
 }
