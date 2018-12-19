@@ -1,4 +1,4 @@
-const enterNumber = parseFloat(prompt('Enter Number'));
+const enterNumber = parseInt(prompt('Enter Number'));
 
 function fib(n) {
     let first = 1,
